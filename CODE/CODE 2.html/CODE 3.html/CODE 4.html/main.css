@@ -1,0 +1,132 @@
+/* style.css */
+body {
+  background: #f8f9fa;
+  color: #2b2b2b;
+  font-size: 20px;
+  font-family: 'Noto Sans', sans-serif;
+  padding: 30px;
+  line-height: 1.6;
+}
+
+/* Header */
+header {
+  text-align: center;
+  background-color: #003366;
+  color: white;
+  padding: 40px 20px;
+  border-radius: 12px;
+  margin-bottom: 40px;
+}
+
+/* Section image principale */
+.hero {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.hero-img {
+  width: 100%;
+  max-width: 600px;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+  margin-bottom: 20px;
+}
+
+.hero-text {
+  font-size: 1.3rem;
+  font-style: italic;
+  color: #444;
+  margin: 5px 0;
+}
+
+h1 {
+  font-family: Courier, monospace;
+  font-size: 3rem;
+  font-weight: lighter;
+  letter-spacing: 2px;
+  color: white;
+}
+
+.tagline {
+  margin-top: 10px;
+  font-style: italic;
+  font-size: 1.2rem;
+  color: #dcdcdc;
+}
+
+/* Titres de sections */
+h2 {
+  font-family: Courier, monospace;
+  color: #003366;
+  font-weight: lighter;
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Liens */
+a {
+  color: #ffc107; /* jaune */
+  text-decoration: underline;
+}
+a:hover {
+  color: purple;
+  text-decoration: none;
+}
+
+/* Section Citations */
+.quotes {
+  max-width: 800px;
+  margin: 0 auto 40px;
+}
+
+.quotes ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.quotes li {
+  background: #e6ecf3;
+  padding: 15px;
+  border-left: 5px solid #003366;
+  margin-bottom: 15px;
+  border-radius: 6px;
+  font-size: 1.2rem;
+}
+
+/* Images & GIFs */
+.media {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.media img {
+  width: 100%;
+  max-width: 400px;
+  margin: 10px auto;
+  display: block;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.gif {
+  max-width: 300px;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  font-size: 0.9rem;
+  margin-top: 60px;
+  color: #555;
+}
+
+footer a {
+  color: #003366;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+  color: purple;
+}
